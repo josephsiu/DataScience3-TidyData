@@ -50,4 +50,4 @@ data_tidy <- aggregate(.~SubjectID+ActivityID+ActivityName,FUN=mean,data=data_ms
 # order the data by subject id and then by activity id and activity name, 
 # finally output to file as space-delimited txt, with headers included
 data_tidy <- data_tidy[order(data_tidy$SubjectID,data_tidy$ActivityID,data_tidy$ActivityName),]
-write.table(data_tidy,"uci_har_avg_mean_std.txt",row.names=FALSE)
+write.table(data_tidy,"uci_har_avg_mean_std.txt",row.names=FALSE) #complete project step 5
