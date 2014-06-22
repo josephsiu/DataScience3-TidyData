@@ -20,14 +20,14 @@ GitHub URL: https://github.com/josephsiu/DataScience3-TidyData
 
 The output dataset adheres to a nearly identical naming scheme as the source data. While information is given below, more information can also be obtained in the *feature_info.txt* file located within the source link above.
 
-++Naming Scheme++
+*Naming Scheme*
 - "t" prefix: time domain signals
 - "f" prefix: frequency domain signals
 - "-XYZ" suffix: denote 3-axial signals in the X,Y, Z directions
 - "-mean" suffix: mean value
 - "-std" suffix: standard deviation value
 
-++Variable List++
+*Variable List*
 
 Note: Unless stated otherwise below, the variable is an average of the signal as defined by the naming scheme above.
 
