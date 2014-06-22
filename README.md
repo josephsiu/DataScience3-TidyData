@@ -17,5 +17,7 @@ Joseph Siu - josephsiu@gmail.com
 **How To Use The Output**
 
 1. The output txt file from the script above will be located in the same folder as the R script and source data
-2. Read this space-delimited output file into R using the read.table() function; note that the output file contains a header row
-3. Example: df <- read.table("uci_har_avg_mean_std.txt", header=TRUE)
+2. Read this space-delimited output file into R using the read.table() function; note that the output file contains a header row so header option must be set, for example: 
+```
+df <- read.table("uci_har_avg_mean_std.txt", header=TRUE)
+```
