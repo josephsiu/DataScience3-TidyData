@@ -9,6 +9,7 @@ GitHub URL: https://github.com/josephsiu/DataScience3-TidyData
 **Source Data:** The source data for the output dataset is based on the *Human Activity Recognition Using Smartphones Dataset*. This source data captures accelerometer and gyroscope data from 30 subjects of ages 19-48 performing multiple tasks. The full source data as well as additional information can downloaded here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 **Data Transformations:** In order to arrive at the output dataset, the run_analysis.R script performs several data transformations from the source data. These steps are listed below:
+
 1. The script reads all the testing and training data and merges them into one large data frame; the Subject ID as well as Activity ID of each row is added in the process
 2. All variables (columns) containing mean and standard deviations are kept while all other variables are discarded; weighted average of frequency (meanFreq) and all additional vectors obtained by averaging the signals in a signal window sample (gravityMean, tBodyAccMean, tBodyAccJerkMean, tBodyGyroMean, tBodyGyroJerkMean) are discarded as well
 3. Activity Name is added to each row based on matching with Activity ID
